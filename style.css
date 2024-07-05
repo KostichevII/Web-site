@@ -1,0 +1,11 @@
+body{background-color:#e4bb99}
+div.img{float:right; width: 30%;}
+div.text{float: left; width: 70%;}
+div.first_block{position:absolute; top:0px; left:0px; background-color:#90a84d; float:left; width:16%; height: 450%;}
+div.second_block{float:right; width:84%}
+div.block{clear:both}
+img{width:100%}
+a:link{color: #1f1810;}
+a:visited{color: #423629;}
+a:hover{color: #1f1810;}
+a:active{color: #312313;}

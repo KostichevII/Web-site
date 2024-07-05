@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Озеро Байкал - достопримечательности </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script  language="JavaScript" src="Scripts.js">
+</script>
+</head>
+<body>
+
+<div class="first_block">
+<lh> <em> Оглавление </em> <br>
+<li> <a href="First.html">Описание озера</a> 
+<li> <a href="Second.html">Достопримечательности озера</a>
+<li> <a href="Third.html">Отзывы людей, посетивших озеро</a>
+</lh>
+</div>
+<div class="second_block">
+<h1 align="center"> Отзывы </h1>
+<hr width="100%">
+<div class="block">
+<p align="center">
+    Здесь вы можете оставить свой отзыв о поездке на Байкал
+</p>
+</div>
+<hr width="100%">
+<div class="block" style="background:#98b6c7;">
+    <fieldset>
+        <legend align="left"> Ваш отзыв </legend>
+        Ваше имя*:<input name="Yname" id="name" type="text">
+        <br>
+        Ваша оценка:
+        <input type="radio" name="score" value="terribly">Ужасно
+        <input type="radio" name="score" value="badly">Плохо
+        <input type="radio" name="score" value="acceptable" checked>Приемлемо
+        <input type="radio" name="score" value="good">Хорошо
+        <input type="radio" name="score" value="great">Отлично
+        <br>
+        Комментарий:<textarea rows="5" cols="60" id="commentary"></textarea>
+        <br>
+        <input type="submit" value="Отправить отзыв" onmousedown="Send()">
+        <input type="reset" value="Очистить" onmousedown="Clear()">
+    </fieldset>
+</div>
+</div>
+</body>
